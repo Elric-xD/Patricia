@@ -1,4 +1,9 @@
 import os
+print("[INFO] Starting Pyrogram Client!")
+
+pbot = Client('bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, plugins=dict(root=f"{__name__}/plugins"))
+
+print("[INFO] Pyrogram Client Started Successfully")
 
 print("[INFO] Starting Telethon Client!")
 
